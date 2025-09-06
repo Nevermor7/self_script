@@ -1,7 +1,7 @@
-var href = "javascript:OUT.user.getTeamPointGift(22);";
+var href = "javascript:OUT.user.getTeamPointGift(5);";
 var lq = $("a[href$='" + href + "']")[0];
 
-var targetTime = new Date(2025, 6, 8, 15, 0, 0, 0).getTime();
+var targetTime = new Date(2025, 7, 8, 3, 0, 0, 0).getTime();
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
